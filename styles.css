@@ -1,0 +1,168 @@
+
+/*  estilo  wraper envoltorio superior  */
+
+
+.wrapper,
+.portafolio {
+    width: 100vw; 
+    height: 70vw;  
+    background-color: #191c32;
+    color: rgb(253, 253, 253);
+    border: 5px solid;
+    border-image: linear-gradient(to bottom, #96cbfc, #1f14bb77);
+    border-image-slice: 1;
+  }
+  
+
+
+  .brand{
+    margin-top: -55px;
+  }
+
+  .menu a {
+color: aliceblue;
+text-decoration: none;
+padding: 10px 20px;
+
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+
+  .menu .active{
+    color: aqua;
+  }
+
+  .menu a:hover {
+    background-color: aqua;
+    color: #191c32;
+    transition: ease-in .5s;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+  }
+  
+  .info-content {
+    margin-bottom: 200px; /* Ajusta el margen inferior según sea necesario para subir el contenido */
+
+  }
+
+
+  /* estilo  wraper envoltorio superior  */
+
+
+
+
+
+
+  /* sector foto de perfil y texto  */
+  .main{
+
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+  }
+
+    h1{
+        font-size: 3em;
+        
+    }
+
+  span{
+    color: aqua;
+  }
+
+
+  .main img {
+
+    border: 7px solid aqua;
+    max-height: 100vh; /* Establece la altura máxima del 60% del viewport height */
+    
+  }
+
+
+  .about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100vw;
+    height: 60vw;
+    align-items: center;
+    background-color: #000000;
+
+  }
+
+  .about img {
+    width: 85%;  
+   
+    border: 5px solid;
+    border: 7px solid #4afff6;
+    border-image-slice: 1;
+    margin-left: 70px;
+    
+  }
+
+
+  .about-info{
+
+  grid-column: auto;
+  padding: 3em;
+  color: rgb(244, 252, 252);
+  font-size: 110%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+
+  .about-info h2{
+    font-size: 2em;
+    color: #dce5e9;
+    margin-top: -200px;
+    text-decoration: underline;
+    color: aqua; /* Cambia 'aqua' por el color que prefieras */
+    text-decoration: underline; /* Añade un subrayado al texto */
+    text-decoration-thickness: 8px
+    
+  }
+
+  
+  /* sector foto de perfil y texto  */   
+
+
+.portafolio-headings{
+  background-color: aqua;
+  color: #191c32; /* Color del texto en la sección "Mi portafolio" */
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+  width: 100%;
+
+
+}
+
+
+  .container{
+    background-color: #636786;
+  }
+
+.contact-heading{
+  background-color: #191c32;
+}
+
+
+
+
+  .footer{
+    background-color: #96cbfc;
+  }
+  
+
